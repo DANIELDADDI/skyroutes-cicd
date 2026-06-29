@@ -5,23 +5,23 @@ on:
     push:
         branches:
               - main
-    jobs:
-      build-deploy:
+jobs:
+    build-deploy:
         runs-on: ubuntu-latest
         steps:
           - name: Checkout the Code 
-          - uses: actions/checkout@v4
+            uses: actions/checkout@v4
           - name: Setup Node.js
             uses: actions/setup-node@v4
             with:
               node-version: '20'
           # install the dependency
           - name: Install dependencies
-          - run: npm install
+            run: npm install
 
           # build the project dependency
           - name: Build Project
-          - run: npm run build
+            run: npm run build
 
           # deploying the project to github pages
           - name: Deploy to Github Pages
