@@ -9,9 +9,9 @@ export default function App() {
      
       return (
             <>
-                  {/* <FlightSearch/> */}
-                  <FlightList/>
-                  <FlightListPreview/>
+                  <FlightSearch/>
+                  {/* <FlightList/>
+                  <FlightListPreview/> */}
             </>
       );
 }
