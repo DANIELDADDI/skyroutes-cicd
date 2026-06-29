@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
       plugins: [react()],
-      base:"skyroutes-cicd/",
+      base:"/skyroutes-cicd/",
       server:{
             open: true,                 // Automatically open the app in the browser on server start
             port: 3001,                // default value is 5173
