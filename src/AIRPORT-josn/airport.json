@@ -1,0 +1,157 @@
+service response  data.data:
+ [
+      {
+    type: 'location',
+    subType: 'CITY',
+    name: 'PARIS',
+    detailedName: 'PARIS/FR',
+    id: 'CPAR',
+    self: {
+      href: 'https: //test.api.amadeus.com/v1/reference-data/locations/CPAR',
+      methods: [Array
+                  ]
+            },
+    iataCode: 'PAR',
+    address: { cityName: 'PARIS', countryName: 'FRANCE'
+            }
+      },
+      {
+    type: 'location',
+    subType: 'AIRPORT',
+    name: 'CHARLES DE GAULLE',
+    detailedName: 'PARIS/FR:CHARLES DE GAULLE',
+    id: 'ACDG',
+    self: {
+      href: 'https: //test.api.amadeus.com/v1/reference-data/locations/ACDG',
+      methods: [Array
+                  ]
+            },
+    iataCode: 'CDG',
+    address: { cityName: 'PARIS', countryName: 'FRANCE'
+            }
+      },
+      {
+    type: 'location',
+    subType: 'AIRPORT',
+    name: 'ORLY',
+    detailedName: 'PARIS/FR:ORLY',
+    id: 'AORY',
+    self: {
+      href: 'https: //test.api.amadeus.com/v1/reference-data/locations/AORY',
+      methods: [Array
+                  ]
+            },
+    iataCode: 'ORY',
+    address: { cityName: 'PARIS', countryName: 'FRANCE'
+            }
+      },
+      {
+    type: 'location',
+    subType: 'AIRPORT',
+    name: 'BEAUVAIS TILLE',
+    detailedName: 'PARIS/FR:BEAUVAIS TILLE',
+    id: 'ABVA',
+    self: {
+      href: 'https: //test.api.amadeus.com/v1/reference-data/locations/ABVA',
+      methods: [Array
+                  ]
+            },
+    iataCode: 'BVA',
+    address: { cityName: 'PARIS', countryName: 'FRANCE'
+            }
+      },
+      {
+    type: 'location',
+    subType: 'AIRPORT',
+    name: 'LE TOUQUET',
+    detailedName: 'LE TOUQUET PARIS PLAGE/FR',
+    id: 'ALTQ',
+    self: {
+      href: 'https: //test.api.amadeus.com/v1/reference-data/locations/ALTQ',
+      methods: [Array
+                  ]
+            },
+    iataCode: 'LTQ',
+    address: { cityName: 'LE TOUQUET PARIS PLAGE', countryName: 'FRANCE'
+            }
+      },
+      {
+    type: 'location',
+    subType: 'CITY',
+    name: 'LE TOUQUET PARIS PLAGE',
+    detailedName: 'LE TOUQUET PARIS PLAGE/FR',
+    id: 'CLTQ',
+    self: {
+      href: 'https: //test.api.amadeus.com/v1/reference-data/locations/CLTQ',
+      methods: [Array
+                  ]
+            },
+    iataCode: 'LTQ',
+    address: { cityName: 'LE TOUQUET PARIS PLAGE', countryName: 'FRANCE'
+            }
+      },
+      {
+    type: 'location',
+    subType: 'AIRPORT',
+    name: 'UNIVERSITY PARK',
+    detailedName: 'STATE COLLEGE/PA/US:UNIVERSITY',
+    id: 'ASCE',
+    self: {
+      href: 'https: //test.api.amadeus.com/v1/reference-data/locations/ASCE',
+      methods: [Array
+                  ]
+            },
+    iataCode: 'SCE',
+    address: {
+      cityName: 'STATE COLLEGE',
+      countryName: 'UNITED STATES OF AMERICA'
+            }
+      },
+      {
+    type: 'location',
+    subType: 'CITY',
+    name: 'STATE COLLEGE',
+    detailedName: 'STATE COLLEGE/PA/US',
+    id: 'CSCE',
+    self: {
+      href: 'https: //test.api.amadeus.com/v1/reference-data/locations/CSCE',
+      methods: [Array
+                  ]
+            },
+    iataCode: 'SCE',
+    address: {
+      cityName: 'STATE COLLEGE',
+      countryName: 'UNITED STATES OF AMERICA'
+            }
+      },
+      {
+    type: 'location',
+    subType: 'AIRPORT',
+    name: 'GLACIER PARK INTL',
+    detailedName: 'KALISPELL/MT/US:GLACIER PARK I',
+    id: 'AFCA',
+    self: {
+      href: 'https: //test.api.amadeus.com/v1/reference-data/locations/AFCA',
+      methods: [Array
+                  ]
+            },
+    iataCode: 'FCA',
+    address: { cityName: 'KALISPELL', countryName: 'UNITED STATES OF AMERICA'
+            }
+      },
+      {
+    type: 'location',
+    subType: 'CITY',
+    name: 'KALISPELL',
+    detailedName: 'KALISPELL/MT/US',
+    id: 'CFCA',
+    self: {
+      href: 'https: //test.api.amadeus.com/v1/reference-data/locations/CFCA',
+      methods: [Array
+                  ]
+            },
+    iataCode: 'FCA',
+    address: { cityName: 'KALISPELL', countryName: 'UNITED STATES OF AMERICA'
+            }
+      }
+]
