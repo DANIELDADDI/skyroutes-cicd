@@ -1,0 +1,46 @@
+name: Deploying Reactjs and Vite to Github
+
+on: 
+    workflow_dispatch:
+    push:
+        branches:
+              - main
+
+permissions:
+    contents: write
+
+jobs:
+    build-deploy:
+        runs-on: ubuntu-latest
+        steps:
+          - name: Checkout the Code 
+            uses: actions/checkout@v4
+
+          - name: Setup Node.js
+            uses: actions/setup-node@v4
+            with:
+              node-version: '20'
+              cache: 'npm'
+              
+          # install the dependency "run: install"
+          - name: Install dependencies
+            run: npm ci
+
+          # build the project dependency
+          - name: Build Project
+            run: npm run build
+
+          - name: Deploy to GitHub Pages
+            uses: JamesIves/github-pages-deploy-action@v4
+            with:
+              folder: dist # Vite outputs production files to this folder
+              branch: gh-pages # The branch where your static files will live
+
+
+          # deploying the project to github pages
+          # - name: Deploy to Github Pages
+          #   uses: peaceiris/actions-gh-pages@v4
+          #   with:
+          #       github_token: ${{ secrets.GITHUB_TOKEN }}
+          #       publish_dir: dist
+
