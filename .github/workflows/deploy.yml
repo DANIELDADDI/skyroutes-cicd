@@ -33,8 +33,8 @@ jobs:
           - name: Deploy to GitHub Pages
             uses: JamesIves/github-pages-deploy-action@v4
             with:
-              folder: dist # Vite outputs production files to this folder
-              branch: gh-pages # The branch where your static files will live
+              folder: dist
+              branch: gh-pages
 
 
           # deploying the project to github pages
